@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Products</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+
+ ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 10px 20px;
+      }
+
+      a:hover {
+        background-color: lightgray;
+        border
+      }
+
+     .shadow{
+        width: 100%;
+        padding: 10px;
+     }
+      .shadow{ 
+        filter: drop-shadow(8px 8px 10px green);
+        padding: 0;
+        margin: 0;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      body {
+        background: #ecf4fb;
+      }
+      .img-gallery {
+        width: 80%;
+        margin: 100px auto 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 30px;
+      }
+      .img-gallery img {
+        width: 100%;
+        cursor: pointer;
+        transition: 0.4s;
+      }
+      .img-gallery img:hover {
+        transform: scale(0.8) rotate(-15deg);
+        border-radius: 20px;
+        filter: drop-shadow(8px 8px 10px green);
+       
+      }
+   
+    </style>
+  </head>
+  <body>
+  <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Product.html">Products</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+    
+
+    <div class="img-gallery">
+      <img
+        src="images/Products/choco chips torte.jpg"
+        alt="Choco Chips Torte"
+      />
+      <img
+        src="images\Products\chocolate truffle.jpg"
+        alt="Chocolate Truffle"
+      />
+      <img
+        src="images\Products\gulab jamun.jpg"
+        alt="jamun"
+      />
+      <img
+        src="images\Products\fresh mango.jpg"
+        alt="Fresh Mango"
+      />
+      <img
+        src="images\Products\kiwi.jpg"
+        alt="Kiwi"
+      />
+      <img
+        src="images\Products\plain chocolate.jpg"
+        alt="Plain Chocolate"
+      />
+      <img
+        src="images\Products\pineapple.jpg"
+        alt="Pineapple"
+      />
+      <img
+        src="images\Products\plain chocolate.jpg"
+        alt="Plain Chocolate"
+      />
+      <img
+        src="images\Products\premium black forest.jpg"
+        alt="Premium black forest"
+      />
+      <img
+        src="images\Products\premium pineapple.jpg"
+        alt="premium pineapple"
+      />
+      <img
+        src="images\Products\rabdi.jpg"
+        alt="rabdi"
+      />
+      <img
+        src="images\Products\rassmalai cake.jpg"
+        alt="rasmalai"
+      />
+      <img
+        src="images\Products\white forest.jpg"
+        alt="White Forest"
+      />
+    </div>
+
+  </body>
+</html>
