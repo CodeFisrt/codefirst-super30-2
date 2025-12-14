@@ -299,43 +299,32 @@ ul li:hover {
   border-radius: 10px;
 }
 
-#why-us {
-  height: 60vh;
-  overflow-x: hidden;
-  background-color: #999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#why-us div {
-  width: 80%;
-  display: flex;
-  border-radius: 20px;
-  height: 60%;
-  align-items: center;
-  justify-content: center;
-  background-color: #0c3402;
-}
-
-#why-us-section1 {
-  font-size: 18px;
-  display: flex;
-  width: 100px;
-  flex-direction: column;
-  font-weight: 800;
-  background-color: #135208;
-  padding: 10px;
-  color: #fff;
-  height: 100%;
-}
-
-#why-us-section2 {
-  height: 100%;
-  width: 100%;
-  background-color: #0c3402;
-}
-
 #main-subsection {
   background-color: #206613;
+}
+
+/* footer */
+footer {
+  background-color: #4b923f;
+  width: 100%;
+  overflow-x: hidden;
+  height: 50vh;
+  overflow-y: hidden;
+  padding: 40px;
+}
+#footer-content {
+  width: 80%;
+  margin: 15px auto;
+  border: 1px solid white;
+  padding: 50px 60px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
