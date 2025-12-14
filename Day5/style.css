@@ -246,3 +246,96 @@ ul li:hover {
   height: 200px;
   border-radius: 10px;
 }
+
+/* section4 */
+#section4 {
+  padding: 20px;
+  height: 80vh;
+}
+#section4-subsection {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+}
+
+#our-story {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#our-story h2 {
+  align-self: self-start;
+  color: green;
+}
+
+#know-more-btn {
+  width: 210px;
+  padding: 15px 30px;
+  align-self: self-start;
+  background-color: yellow;
+  border: 0.5px solid yellow;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#know-more-btn:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#our-storyImg {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#why-us {
+  height: 60vh;
+  overflow-x: hidden;
+  background-color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#why-us div {
+  width: 80%;
+  display: flex;
+  border-radius: 20px;
+  height: 60%;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c3402;
+}
+
+#why-us-section1 {
+  font-size: 18px;
+  display: flex;
+  width: 100px;
+  flex-direction: column;
+  font-weight: 800;
+  background-color: #135208;
+  padding: 10px;
+  color: #fff;
+  height: 100%;
+}
+
+#why-us-section2 {
+  height: 100%;
+  width: 100%;
+  background-color: #0c3402;
+}
+
+#main-subsection {
+  background-color: #206613;
+}
