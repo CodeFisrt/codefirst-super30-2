@@ -47,14 +47,14 @@ nav ul li a:hover {
 .Contact-info {
   color: #fff;
   font-size: 14px;
-  justify-content:end;
+  justify-content: end;
   gap: 15px;
 }
 .contact-container {
   display: grid;
   grid-template-columns: 400px 200px 200px 200px;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 div .the-logo {
   margin-left: 50px;
@@ -137,18 +137,18 @@ div .Contact-info {
   opacity: 0.8;
 }
 
-.about{
+.about {
   background-image: url(/assets/images/backGround.png);
   background-size: cover;
   background-position: center;
   padding: 100px 0;
   overlay: auto;
 }
-.aboutus-left img{
+.aboutus-left img {
   width: 100%;
   border-radius: 10px;
 }
-.aboutus-container{
+.aboutus-container {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -164,7 +164,7 @@ div .Contact-info {
   transition: 0.3s;
 }
 
-.aboutus-icons img p{
+.aboutus-icons img p {
   text-align: center;
   font-family: "Merienda", cursive;
   display: inline;
@@ -174,4 +174,19 @@ div .Contact-info {
   color: #fff;
   padding: 50px 0;
   text-align: center;
+}
+.menu-cards .card .price:hover {
+  background-color: orange;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.menu-cards .card img:hover {
+  background-color: orange;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Contact-info img:hover {
+  background-color: orange;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
