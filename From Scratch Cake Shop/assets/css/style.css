@@ -1,0 +1,177 @@
+body {
+  margin: 10px;
+  padding: 50px;
+  font-family: "Merienda", cursive;
+  background: url(/assets/images/Background.avif);
+  background-size: cover;
+  overflow-x: hidden;
+  background-position: fixed;
+}
+.fa-solid.fa-cart-shopping {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: end;
+}
+.the-logo img {
+  height: 50px;
+  width: 178px;
+  padding: 10px;
+}
+.Header-Content {
+  height: max-content;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+}
+nav ul li a:hover {
+  color: orange;
+  transition: 0.3s;
+}
+.navbar {
+  padding: 10px;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.Contact-info {
+  color: #fff;
+  font-size: 14px;
+  justify-content:end;
+  gap: 15px;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 400px 200px 200px 200px;
+  align-items: center;
+  justify-content:space-between;
+}
+div .the-logo {
+  margin-left: 50px;
+}
+div .Contact-info {
+  display: flex;
+  align-items: center;
+}
+.Hero {
+  height: 500px;
+  width: 1189px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: url("images/bg-pattern.png") center/cover no-repeat;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+}
+.hero-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  z-index: 1;
+}
+.hero-left img {
+  width: 100%;
+  max-width: 450px;
+}
+.hero-right {
+  max-width: 700px;
+  color: #eaf6ff;
+}
+.hero-right h1 {
+  font-family: "Merienda", cursive;
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+.menu-cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.card {
+  position: relative;
+  text-align: center;
+}
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card p {
+  margin-top: 10px;
+  font-family: "Merienda", cursive;
+}
+.price {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.rating {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.rating p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.about{
+  background-image: url(/assets/images/backGround.png);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  overlay: auto;
+}
+.aboutus-left img{
+  width: 100%;
+  border-radius: 10px;
+}
+.aboutus-container{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+
+.aboutus-icons img {
+  border-radius: 10px;
+}
+
+.aboutus-icons img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.aboutus-icons img p{
+  text-align: center;
+  font-family: "Merienda", cursive;
+  display: inline;
+}
+.footer-content {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
