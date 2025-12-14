@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  overflow-x: hidden;
+}
+article {
+  background-image: url(vegetables1.jpeg);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+footer {
+  height: 300px;
+  background: #95e5b8;
+  background: linear-gradient(
+    90deg,
+    rgba(149, 229, 184, 1) 22%,
+    rgba(149, 229, 184, 1) 65%,
+    rgba(63, 161, 92, 1) 100%,
+    rgba(114, 212, 155, 1) 100%,
+    rgba(143, 218, 154, 1) 89%,
+    rgba(184, 226, 152, 1) 98%,
+    rgba(140, 230, 192, 1) 100%,
+    rgba(130, 220, 188, 1) 100%,
+    rgba(235, 222, 106, 1) 100%
+  );
+}
+
+.about {
+  background: #95e5b8;
+  background: linear-gradient(
+    90deg,
+    rgb(215, 221, 221) 22%,
+    rgb(204, 240, 219) 65%,
+    rgb(210, 229, 215) 100%,
+    rgb(201, 224, 211) 100%,
+    rgb(209, 230, 212) 89%,
+    rgb(223, 243, 208) 98%,
+    rgb(210, 232, 222) 100%,
+    rgb(184, 213, 203) 100%,
+    rgba(235, 222, 106, 1) 100%
+  );
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
