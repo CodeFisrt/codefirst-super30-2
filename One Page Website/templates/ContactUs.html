@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContactUs</title>
+    <link rel="icon" type="image" href="css/style.css" />
+
+    <style>
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 10px 20px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .form-container {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        width: 100%;
+      }
+      form {
+        border: 2px solid blanchedalmond;
+        margin: auto;
+        flex: auto;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        background-color: rgb(60, 65, 100, 90);
+        border-radius: 4px;
+        color: white;
+        border-radius: 7px;
+        cursor: pointer;
+        background-image: url(/Assets/Image/wallpaper\ giphy.webp);
+      }
+      form [type="text"],
+      form [type="date"],
+      form [type="textarea"] {
+        width: 95%;
+        text-align: justify;
+        border-radius: 5px;
+        padding: 5px;
+      }
+      button {
+        margin-left: auto;
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        border: 2px;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <img
+          href="images/Backgrounds/Home bg.avif"
+          alt="K-Cake Logo"
+          width="50px"
+          height="50px"
+        />
+      </li>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="Product.html">Products</a></li>
+      <li><a href="ContactUs.html">Contact Us</a></li>
+    </ul>
+
+    <div class="form-container">
+      <form action="/action_page.php" method="post">
+        <label for="fname">Full Name:</label><br /><br />
+        <input
+          type="text"
+          id="fname"
+          placeholder="E.g:your Full name here"
+          name="fname"
+        /><br /><br />
+
+        <label for="Email">E-mail:</label><br /><br />
+        <input
+          type="text"
+          id="Email"
+          placeholder="E.g:Abc@gmail.com"
+          name="Email"
+        /><br /><br />
+
+        <label for="Pn">Phone NO:</label><br /><br />
+        <input type="text" id="Pn" placeholder="E.g:1234567890" /><br /><br />
+
+        <label for="project">Project Start or Event Date:</label><br /><br />
+        <input type="date" id="project" placeholder="dd-mm-yyyy" /><br /><br />
+
+        <label for="Address">Address or Venue Name If you Have One:</label
+        ><br /><br />
+        <input
+          type="text"
+          id="Address"
+          placeholder="E.g:742 Evergreen Terrace Springfield"
+        /><br /><br />
+
+        <p>
+          If you'd like to get in touch, feel free to reach out on whatsapp.
+          <br />
+          ping me at 7757913692 let's start the conversation!
+        </p>
+        <br />
+
+        <label for="Address"> Tell me more about your event or project.</label
+        ><br /><br />
+        <input
+          type="textarea"
+          id="Address"
+          placeholder="E.g:742 Evergreen Terrace Springfield"
+        /><br /><br />
+
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <div class="Navigation">
+      <footer>
+        <p>© 2024 K-Cake. All rights reserved.</p>
+      </footer>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1162299936!2d72.7410996873684!3d19.082197838210954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63f4f5f2d5b%3A0x7d8b5f4e8e8e8e8e!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy">
+    </div>
+  </body>
+</html>

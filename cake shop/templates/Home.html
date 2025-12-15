@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>K-Cake & Bakery</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="/Project/Elements/Icons/bakery icon.jpg" height="50px" width="50px"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+
+    <style>
+        
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      
+      .home .homeContent h2:hover{
+        color:goldenrod;
+        
+       text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+
+      
+      #home{
+        background-image: url(/Elements/Background/back.png);
+        }
+      
+      .home {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center center;
+      }
+      .home .homeContent {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 4rem;
+        margin-bottom: 100px;
+      }
+      .home .homeContent h2 {
+        font-size: 4rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+        line-height: 7rem;
+        color: black;
+        text-shadow:10px 10px 20px crimson;
+      }
+      .home .homeContent p {
+        font-size: 1.8rem;
+        line-height: 2;
+        margin-bottom: 2rem;
+      }
+      .home .homeContent .home-btn {
+        height: 3rem;
+      }
+      .home .homeContent .home-btn button {
+        font-size: 1.8rem;
+        background-color: black;
+        color: white;
+        border-radius: 0.7rem;
+        padding: 0.7rem 2.4rem;
+        cursor: pointer;
+      }
+      .home .homeContent .home-btn button:hover {
+        font-size: 2rem;
+      }
+      div.gallery {
+        margin: 15px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 250px;
+        height: 280px;
+      }
+
+      div.gallery video:hover {
+        border: 1px solid #777;
+        border-radius: 50%;
+        filter: drop-shadow(8px 8px 25px purple);
+      }
+
+      div.gallery video {
+        width: 235px;
+        height: 270px;
+        background-color: white;
+        box-shadow:black 0px 8px 30px;
+        border: 1px solid black;
+        padding: px;
+
+        border-radius: 20px;
+        margin-left: 35px;
+        background-image: url(/Elements/Background/cards.avif);
+      }
+
+      .desc button{
+        border: none;
+        border-radius: 25px 10px;
+        color: black;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 13%;
+      }
+      .desc button:hover{
+           color: blue;
+           box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+           border: 3px solid #00d7c3;
+          
+         }
+      
+      .cards{
+        height: auto;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center center;
+      }
+      .card_heading{
+        font-size: 3rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+        color: black;
+        text-shadow:10px 10px 20px crimson;
+        text-align: center;
+      }
+      .card_heading h2{
+        margin-bottom: 30px;
+        background-color:#ccc ;
+        color: black;
+        margin-left: 15px;
+      }
+      section.cards{
+        width: 100%;
+        height: auto;
+        background-image: url(/Elements/Background/backGround.png);
+        border: 1px solid black;
+        padding: 25px;
+      }
+      section.cards:hover{
+        border-radius: 50px;
+        box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 50px 2px #00d7c3;
+      }
+      
+      .subhead{
+        text-shadow: black 0px 0px 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <a href="/templates/Home.html">Home</a>
+        <a href="/templates/Menu.html">Menu</a>
+        <a href="/templates/Offers.html">Offers</a>
+        <a href="/templates/Products.html">Products</a>
+        <a href="/Franchise.html">Franchise</a>
+        <a href="/Contact Us.html">Contact Us</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="homeContent">
+        <h2>Welcome to K-Cake!</h2>
+        <p>
+          Where Every Slice Tells a Sweet Story.<br />
+          Treat Yourself Today!
+        </p>
+        <div class="home-btn">
+          <a href="#"><button>see more</button></a>
+        </div>
+      </div>
+    </section> <br><h2 class="subhead" style="text-align:center">Uniqueness of k-cake</h2><br>
+    <section class="cards">
+
+      <div class="card_heading">
+      <h2>Uniqueness of k-cake </h2>
+     
+    <div class="gallery">
+      <a target="_blank" href="/Home.html">
+        <video src="/Elements/images and videos for gallery/Cards/1.mp4" autoplay muted loop>
+      </a>
+      <div class="desc"><button class="btn"  type="button">Order Now</button></div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="assets/image/nature5.jpg">
+       <video src="/Elements/images and videos for gallery/Cards/2.mp4" autoplay muted loop></video>
+      </a>
+      <div class="desc"><button class="btn" type="button">Order Now</button></div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="assets/image/nature5.jpg">
+       <video src="/Elements/images and videos for gallery/Cards/3.mp4" autoplay muted loop></video>
+      </a>
+      <div class="desc"><button class="btn"  type="button">Order Now</button></div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="/Home.html">
+        <video src="/Elements/images and videos for gallery/Cards/4.mp4" autoplay muted loop>
+      </a>
+      <div class="desc"><button class="btn"  type="button">Order Now</button></div>
+    </div>
+  
+
+  <div class="gallery">
+    <a target="_blank" href="assets/image/nature5.jpg">
+     <video src="/Elements/images and videos for gallery/Cards/5.mp4" autoplay muted loop></video>
+    </a>
+    <div class="desc"><button class="btn" type="button">Order Now</button></div>
+  </div>
+</div>
+  </section><br><br>
+    <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+          <a href="mailto: shivrajjadhav710@gmail.com"target="blank"><button><img src="/Elements/Icons/gmail.png" height="20px" width="20px" ></button></a> </p>
+          <a href="https://web.whatsapp.com/"target="blank"><button><img src="/Elements/Icons/whatsapp.jpeg" height="20px" width="20px"></button></a>
+          <a href="https://www.instagram.com/"target="blank"><button><img src="/Elements/Icons/instagram.png" height="20px" width="20px"></button></a>
+          <a href="https://www.youtube.com/account"target="blank"><button><img src="/Elements/Icons/You tube.png" height="20px" width="20px"></button></a> 
+          <a href="https://www.facebook.com/"target="blank"><button><img src="/Elements/Icons/facebook.png"  height="20px" width="20px"></button></a> 
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="/Home.html">Home</a></li>
+                <li><a href="/Menu.html">Menu</a></li>
+                <li><a href="/Offers.html">Offers</a></li>
+                <li><a href="/Products.html">product</a></li>
+                <li><a href="/Franchise.html">Franchise</a></li>
+                <li><a href="/Contact Us.html">contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerBottom">
+        <p>Designed by <span class="designer">@Shivraj_Jadhav2024 </span></p>
+    </div>
+</footer>
+</body>
+</html>
