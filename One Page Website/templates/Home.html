@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Shop Website.</title>
+    <link rel="icon" type="image.jpg" href="images\Backgrounds\favicon.jpg" />
+
+    <style>
+     
+      h3 {
+        text-align: center;
+        color: brown;
+        font-size: 50px;
+        font-family: "Times new roman", Times, serif;
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 10px 20px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .Home-content {
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        Sbackground-image: url("images/Backgrounds/home-bg.jpg");
+      }
+        .Home-content h2  {
+            color: brown;
+            font-size: 30px;
+        }
+      .Home-content p {
+        font-size: 18px;
+        margin: 20px auto;
+        width: 60%;
+        line-height: 1.6;
+        color: white;
+       
+        
+      }  
+        .About-section, .Products-section, .Contact-section {
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;}
+
+.Home-content {
+    background-image: url("../images/Backgrounds/Home bg.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-gallery {
+        width: 80%;
+        margin: 100px auto 50px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 30px;
+      }
+
+      .img-gallery img {
+        width: 100%;
+        cursor: pointer;
+        transition: 0.4s;
+      }
+
+      .img-gallery img:hover {
+        transform: scale(0.8) rotate(-15deg);
+        border-radius: 20px;
+        filter: drop-shadow(8px 8px 10px green);
+       
+      }
+   
+    </style>
+  </head>
+  <body>
+    <header>
+      <h3 style=" 
+        margin: 20px auto;
+        width: 60%;
+        line-height: 1.6;">Welcome to K-Cake</h3>
+    </header>
+
+      <ul style="{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+      }">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Product.html">Products</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+    
+
+    <div class="Home-content">
+      <h2>Delicious Cakes for Every Occasion</h2>
+      <p>
+        Freshly baked and beautifully decorated cakes to make your celebrations
+        special.
+        lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,   
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse                           
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                                                            
+      </p>
+      
+    
+    </div>
+
+    <section class="About-section">
+      <h2>About K-Cake</h2>
+      <p>
+        At K-Cake, we believe in creating memorable experiences through our
+        delectable cakes. Our skilled bakers use the finest ingredients to craft
+        cakes that not only taste amazing but also look stunning.
+      </p>
+    </section>
+
+    <div class="Products-section">
+      <h2>Our Popular Cakes</h2>
+      <div class="img-gallery">
+      <img
+        src="/images/Products/choco chips torte.jpg"
+        alt="Choco Chips Torte"
+      />
+      <img
+        src="/images/Products/chocolate truffle.jpg"
+        alt="Chocolate Truffle"
+      />
+      <img
+        src="/images/Products/gulab jamun.jpg"
+        alt="jamun"
+      />
+    </div>
+
+    <div class="Contact-section">
+      <p></p>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 K-Cake. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

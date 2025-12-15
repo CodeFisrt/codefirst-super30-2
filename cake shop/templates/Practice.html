@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            display: flex;
+            height: 100vh; /* Set the height to full screen */
+        }
+        
+        /* Left side styling */
+        .left-container {
+            flex: 2; /* Take 2/3rd of the container */
+            padding: 40px;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .left-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .left-container label {
+            margin: 10px 0 5px;
+        }
+        
+        .left-container input,
+        .left-container select,
+        .left-container button {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .left-container button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .left-container button:hover {
+            background-color: #45a049;
+        }
+        
+        /* Right side styling */
+        .right-container {
+            flex: 1; /* Take 1/3rd of the container */
+            background-color: blue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .right-container .blue-section {
+            text-align: center;
+        }
+        
+        .right-container p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left side for the form -->
+        <div class="left-container">
+            <h2>Send Your Request</h2>
+            <form>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="E.g. your Full name here">
+    
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="E.g. Abc@gmail.com">
+    
+                <label for="phone">Phone NO:</label>
+                <input type="text" id="phone" placeholder="E.g. 1234567890">
+    
+                <label for="country">Country</label>
+                <select id="country">
+                    <option>India</option>
+                    <!-- Other countries -->
+                </select>
+    
+                <label for="state">State</label>
+                <select id="state">
+                    <option>Maharashtra</option>
+                    <!-- Other states -->
+                </select>
+    
+                <label for="subject">Subject/message:</label>
+                <input type="text" id="subject" placeholder="E.g. Subject/message">
+    
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    
+        <!-- Right side for the blue section -->
+        <div class="right-container">
+            <div class="blue-section">
+                <p>Reach Out</p>
+                <p>mobile No. 9087895420<br>k-cake Phaltan, Maharashtra, 415523</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

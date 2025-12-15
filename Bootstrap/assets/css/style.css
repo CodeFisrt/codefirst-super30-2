@@ -1,0 +1,34 @@
+.top-bar {
+  background: #0b1b2b;
+  color: white;
+  padding: 10px;
+
+}
+
+.container{
+  margin-left: 10px;
+}
+
+.brand {
+  font-weight: 700;
+}
+
+
+.top-bar {
+  color: white;
+  font-family: "merinda", serif;
+}
+
+.data{
+    font-family: "merinda", serif;
+    color: white;
+
+}
+
+#navbarNav{
+color: white;
+  background-color: #0b1b2b;
+}
+.nav-item{
+  color: white;
+}
