@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.content1{
+    height:100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+       
+}
+img{
+    height: 300px;
+    width: 420px;
+
+}
+h1{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+.container{
+   
+    margin-top: 20px;
+    border: 3px solid goldenrod;
+    padding: 30px;
+    
+}
+
+.content1{
+    background-image: url(./bookback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
