@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+
+}
+header div{
+    width: 100%;
+}
+#logo{
+    width: 15%;
+    height: 80px;
+    
+    background: url(/Blinkit_clone/blinkit-logo-02.png);
+}
+#logo button img {
+    display: block;
+    height: 100%;  
+    width: 100%;
+}
+#logo button{
+    height: 100%;
+    width: 100%;
+}
+.location{
+    background-color: red;
+    width: 25%;
+
+}
+.location button{
+    height: 100%;
+    width: 100%;
+}
+#pro_search{
+    width: 40%;
+}
+input{
+    background-color: aliceblue;
+}
+#pro_search input{
+    text-align:right;
+    height: 80%;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: rgb(244, 244, 244) 1px;
+    border-radius: 10px;
+}
+#login{
+    width: 12%;
+}
+
+#login button{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+   
+}
+#login button img{
+    height: 100%;
+    width: 100%;
+}
+#mycart{
+    width: 12%;
+    
+}
+#mycart button{
+    height: 100%;
+    width: 100%;
+}
+.add{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.add img{
+    height: 250px;
+    width: 100%;
+}
+.offer{
+   
+    display: flex;
+    height: 250px;
+    background-color:rgb(254, 254, 254);
+}
