@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Using Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.png" alt="logo" id="logo"
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li> -->
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main style="background-color: rgb(200, 165, 165); padding: 20px 60px">
+      <div id="landingpage" class="img-fluid">
+        <div id="landing-heading">
+          <h1>Crafting Confidence, One Cut at a Time</h1>
+          <p>
+            where your beauty and well-being are our passion. Our team of expert
+            stylists and beauty professionals is dedicated to providing you with
+            a personalized experience in a relaxing and luxurious environment
+          </p>
+          <button type="button" class="btn btn-primary w-md-auto">
+            Visit Once
+          </button>
+        </div>
+      </div>
+      <!-- about-us -->
+      <div id="about-us">
+        <div id="about-us-content-left">
+          <img src="./images/aboutUs.jpg" alt="" />
+        </div>
+        <div id="about-us-content-right">
+          <h2 id="about-us-heading">About Us</h2>
+          <p id="about-us-description">
+            More than just a salon, [Your Salon Name] is a creative hub where
+            everyone is welcome. We celebrate the diverse beauty in all our
+            clients and strive to foster an inclusive and supportive
+            environment. Our talented stylists are here to help you express your
+            unique self, ensuring every visit is an inspiring and fun
+            experience. Check out our latest looks and become part of our
+            vibrant community.
+          </p>
+          <button type="button" class="btn btn-secondary">
+            Click To Know More
+          </button>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div id="testimonials">
+        <h3>Testimonials</h3>
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="./testimonials/testimonial1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alexa</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./testimonials/testimonial2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">John</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./testimonials/testimonial3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Smith</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact Us form -->
+      <div id="contact-us">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputName1" />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+l

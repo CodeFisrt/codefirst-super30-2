@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+     *{
+      margin: 0;
+      padding: 0;
+     }
+
+     body{
+       background-image: url(/Elements/Background/backGround.png);
+       font-size: 14px;
+       font-family: sans-serif;
+     }
+     .container{
+      width: 60%;
+      margin: 50px auto;
+     }
+     .contact-box{
+       background:white;
+       display:flex;
+     }
+    .contact-left{
+     flex-basis: 60%;
+     padding: 40px 60px;
+    }
+    .contact-right{
+      flex-basis: 40%;
+      padding: 40px;
+      color:white;
+      background:blue;    
+    }
+   .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom :20px; 
+   }
+   .input-row .input-group{
+    flex-basis: 45%;
+
+   }
+input{
+  width: 100%;
+  border: none ;
+  border-bottom: 1px solid black ;
+  outline: none ;
+  padding-bottom: 5px;
+}
+input[]
+textarea{
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label{
+  display: block;
+  margin-bottom: 6px;
+  color:#1c001c ;
+}
+.thumbnail img{
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  box-shadow: black 0px 0px 10px 15px;
+ 
+}
+.btn{
+  background: #1c00b5;
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 15px 0px rgba( 28,0,181,0.3);} 
+
+  </style>
+</head>
+<body>
+  
+    <nav id="navbar">
+      <a href="/Home.html">Home</a>
+      <a href="/Menu.html">Menu</a>
+      <a href="/Offers.html">Offers</a>
+      <a href="/Products.html">Products</a>
+      <a href="/Franchise.html">Franchise</a>
+      <a href="/Contact Us.html">Contact Us</a>
+    </nav>
+  
+  <div class="thumbnail"><img src="/Elements/images and videos for gallery/contact Us/contact 1.png"></div>
+  <div class="container">
+    <h1>Contact Us!</h1><br>
+    <p>
+    <b>We would love to respond your queries. Feel free to get in touch with us</b>
+    </p> <br><br>
+    <div class="contact-box">
+      <div class="contact-left">
+        <h3>Reach Out Us !</h3> <br>
+          <div>
+          <form action="/action_page.php" method="post">
+            <div class="input-row">
+           
+           <div class="input-group"> 
+            <label for="fname">Full Name</label><br><br>
+            <input type="text" id="fname" placeholder="E.g:your Full name here" name="fname"> </div><br><br>
+          </div>
+
+            <div class="input-group"> 
+            <label for="Email">E-mail:</label><br><br>
+            <input type="text" id="Email" placeholder="E.g:Abc@gmail.com" name="Email"><br><br>
+          </div>
+
+            <div class="input-group"> 
+            <label for="Pn">Phone NO:</label><br><br>
+            <input type="text" id="Pn" placeholder="E.g:1234567890"><br><br>
+          </div>
+          </div>
+          
+             <div class="input-group"> 
+             <label for="sub">Subject/massage:</label><br><br>
+             <input type="textarea" id="sub" placeholder="E.g:Subject/message"><br><br>
+             <button class="btn">SEND</button>
+           </div>
+           </div>
+          
+        </form>
+      </div>
+      <div class="contact-right">
+        <h3>Reach Out</h3>
+        <p>mobile No.9087865420</p>
+        <address>
+          k-cake phaltan,
+          Maharashtra,
+          415523
+        </address>
+      </div>
+    </div>
+   
+  </div>
+
+  <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+          <a href="mailto: shivrajjadhav710@gmail.com"target="blank"><button><img src="/Elements/Icons/gmail.png" height="20px" width="20px" ></button></a> </p>
+          <a href="https://web.whatsapp.com/"target="blank"><button><img src="/Elements/Icons/whatsapp.jpeg" height="20px" width="20px"></button></a>
+          <a href="https://www.instagram.com/"target="blank"><button><img src="/Elements/Icons/instagram.png" height="20px" width="20px"></button></a>
+          <a href="https://www.youtube.com/account"target="blank"><button><img src="/Elements/Icons/You tube.png" height="20px" width="20px"></button></a> 
+          <a href="https://www.facebook.com/"target="blank"><button><img src="/Elements/Icons/facebook.png"  height="20px" width="20px"></button></a> 
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="/Home.html">Home</a></li>
+                <li><a href="/Menu.html">Menu</a></li>
+                <li><a href="/Offers.html">Offers</a></li>
+                <li><a href="/Products.html">product</a></li>
+                <li><a href="/Franchise.html">Franchise</a></li>
+                <li><a href="/Contact Us.html">contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerBottom">
+        <p>Designed by <span class="designer">@Shivraj_Jadhav2024 </span></p>
+    </div>
+</footer>
+</body>
+</html>
