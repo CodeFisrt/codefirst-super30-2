@@ -5,51 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>K-Cake</title>
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Font Awesome CDN  -->
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvYbowiers<spanboy fonts/{{cursor}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+      <!-- External CSS -->
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>   
   <body>
     <header>
-        <!-- TOP BAR -->
+      <!-- TOP BAR -->
 <div class="top-bar py-2">
   <div class="container">
     <div class="row align-items-center">
 
       <!-- LOGO -->
-      <div class="col-lg-4 col-md-4 text-md-start text-center">
-        <h3 class="mb-0 brand"><img src="/assets/images/logo.png" alt="logo" height="80" width="178"></h3>
+      <div class="col-lg-4 col-md-4 text-md-start text-center mb-2 mb-md-0">
+        <img src="/assets/images/logo.png" alt="logo" height="80" width="178">
       </div>
 
       <!-- INFO ITEMS -->
-      <div class="col-lg-8 col-md-8 d-none d-md-flex justify-content-end gap-4">
+      <div class="col-lg-8 col-md-8 d-none d-md-flex justify-content-end gap-5">
 
-        <div class="d-flex align-items-center">
-          <i class="fa-solid fa-phone me-2"></i>
+        <!-- Call -->
+        <div class="d-flex align-items-center gap-3">
+          <img src="/assets/images/call anytime.png" alt="Call Anytime" height="45" width="45">
           <div>
-            <img src="/assets/images/call anytime.png" alt="" height="50px" width="50px">
             <small class="icon-name">Call anytime</small><br>
             <strong class="data">+1-800-456-478-23</strong>
           </div>
         </div>
 
-        <div class="d-flex align-items-center">
-          <i class="fa-solid fa-clock me-2"></i>
+        <!-- Timing -->
+        <div class="d-flex align-items-center gap-3">
+          <img src="/assets/images/timing.png" alt="Timing" height="45" width="45">
           <div>
-            <img src="/assets/images/timing.png" alt="" height="50px" width="50px">
             <small class="icon-name">Timings</small><br>
             <strong class="data">2 PM - 10 PM</strong>
           </div>
         </div>
 
-        <div class="d-flex align-items-center">
-          <i class="fa-solid fa-location-dot me-2"></i>
+        <!-- Location -->
+        <div class="d-flex align-items-center gap-3">
+          <img src="/assets/images/location.png" alt="Location" height="45" width="45">
           <div>
-            <img src="/assets/images/location.png" alt="" height="50px" width="50px">
             <small class="icon-name">Location</small><br>
             <strong class="data">7 York St, USA</strong>
           </div>
@@ -60,43 +72,90 @@
     </div>
   </div>
 </div>
+
+</header>
+
+<section class="Hero-Section">
+
 <!-- NAVBAR -->
-    
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+      
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mg-lg-2" href="#">About Us</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link mg-lg-2" href="#">Our Menu</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link mg-lg-2" href="#">Pages</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link mg-lg-2" href="#">Shop</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link mg-lg-2" href="#">Blog</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link mg-lg-2" href="#">Contact Us</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+   
+    <a href="#" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" border="none">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <a href="#" class="cart-button"><i class="fa-solid fa-cart-arrow-down"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" border="none">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+   <a href="#" class="Ham-button"><i class="fa-solid fa-bars"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" border="none">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
 
+</section>
 
-
-
-
-
-
+<section class="container">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="/assets/images/commo" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
 
 
 

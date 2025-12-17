@@ -2,10 +2,9 @@
   background: #0b1b2b;
   color: white;
   padding: 10px;
-
 }
 
-.container{
+.container {
   margin-left: 10px;
 }
 
@@ -13,22 +12,63 @@
   font-weight: 700;
 }
 
-
 .top-bar {
   color: white;
   font-family: "merinda", serif;
 }
 
-.data{
-    font-family: "merinda", serif;
-    color: white;
-
-}
-
-#navbarNav{
-color: white;
-  background-color: #0b1b2b;
-}
-.nav-item{
+.data {
+  font-family: "merinda", serif;
   color: white;
+  display: flex
+}
+.Hero-Section {
+  height: 100vh;
+  background: url("/assets/images/Home\ bg.png") no-repeat center center/cover;
+}
+.nav-link{
+  font-family: "merinda", serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+}
+/* .nav-link::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  background-color: white;
+visibility: hidden;
+  transition: 0.3s ease-in-out;
+} */
+/* .nav-link:hover::before{
+  width: 100%;
+  visibility: visible;
+  height: 4px;
+} */
+.Ham-button{
+  font-size: 25px;
+  color: white;
+  margin:10px;
+}
+
+.cart-button{
+  font-size: 25px;
+  color: white;
+  margin:10px;
+}
+.cart-button:hover{
+  color: grey;
+}
+.search-button{
+  font-size: 25px;
+  color: white;
+  margin:10px;
+} 
+.search-button:hover{
+  color: grey;
 }
