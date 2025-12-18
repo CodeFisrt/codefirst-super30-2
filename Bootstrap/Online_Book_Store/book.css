@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content1{
+    height: 350px;
+    background-color: #38448a;
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 60px;
+}
+.content3{
+    text-align: center;
+    
+}
+.text h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.content1 h1,.content1 h3,.button11{
+    text-align: center;
+}
+.card-body h5,.card-body a{
+    text-align: center;
+    margin-left:15%;
+    height: 60px;
+    width: 100px;
+}
+.card-body {
+    margin: 10px;
+}
+
+
+.card img{
+    height: 250px;
+    height: 300px;  
+}
+img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.content3_fiction h3{
+    text-decoration: underline;
+}
+.content3_fiction{
+    border: 4px double gray;
+}
+
+.content3_fiction3{
+     display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    /* border: 4px double grey; */
+    margin:15px;
+    background-color: rgb(105, 151, 211);
+}
+svg{
+    letter-spacing:10px ;
+    
+}
+.content2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 4px double grey;
+    margin: 10px;
+    background-color: rgb(105, 151, 211);
+    
+}
+    
+    /* justify-content:space-evenly; */
+.nav-item a{
+    color: whitesmoke;
+    font-weight: bolder;
+    
+}
+.nav-item{
+    margin-left:90px ;
+}
+.service1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 3px double grey;
+    background-color: rgb(105, 151, 211);
+    margin: 15px;
+}
+.service11 h1{
+    text-decoration: underline;
+    color: white;
+}
+.service11>h4{
+    font-size: xx-small;
+    
+}
+.carousel1{
+    height: 200px;
+    
+}
