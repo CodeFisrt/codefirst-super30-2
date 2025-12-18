@@ -1,0 +1,62 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ nav a{
+    font-size: 20px;
+    margin-left: 40px;
+    
+ }
+ nav{
+    text-align: center;
+    background-color: aquamarine;
+ }
+ .box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin: auto;
+ }
+ .box2{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+ }
+ .box4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    right: 0px;
+ }
+ .box5{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+ }
+ .box6{
+    height: 100px;
+    width: 100px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 60px;
+    
+ }
+ .box7{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+ }
+ .box8{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+ }
+ h2{
+    text-align: center;
+    text-transform: capitalize;
+ }

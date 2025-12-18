@@ -1,0 +1,11 @@
+.content{
+    height: 500px;
+    width: 100wh;
+    border: 2px solid red;
+    background-image: url('bookback.jpg');
+    /* background-size: cover; */
+    object-fit:fill ;
+    background-repeat: no-repeat;
+
+
+}
