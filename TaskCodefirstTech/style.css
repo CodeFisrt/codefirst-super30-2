@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+.navbar > .container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a.navbar-brand p.iso-text {
+  margin: 0;
+  color: #414142;
+  text-align: left;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ms-auto {
+  margin-left: auto !important;
+}
+
+a.nav-link {
+  color: #111111;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.iso-text-1 {
+  margin: 0;
+  color: #414142;
+  text-align: right;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  color: #111111;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.get-free-demo {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 142px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #07294d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.email a {
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.call-wrapper a {
+  text-decoration: none;
+}
+
+p.email {
+  color: #fff;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  opacity: 0.25;
+}
+/* 
+.main_landing_section {
+  display: flex;
+  width: 80%;
+  gap: 20px;
+  margin: 10px auto;
+} */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.know_more_btn {
+  width: 200px;
+}
+
+.why-choose-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer .branch {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer .branch ul.branch-list li:after {
+  content: "|";
+  position: absolute;
+  right: -12px;
+}
+
+footer {
+  background-color: #414142;
+  padding: 20px 0;
+  color: #fff;
+}
